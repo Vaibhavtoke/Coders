@@ -6,11 +6,20 @@ primaryColor = "#1661C9"
 backgroundColor = "#FFFFFF"
 
 # Background color used for the sidebar and most interactive widgets.
-secondaryBackgroundColor = "#F8F9FA"
+secondaryBackgroundColor = "#E0E0E0"  # Light gray for better contrast
 
 # Color used for almost all text.
 textColor = "#333333"
 
-# Font family for all text in the app, except code blocks. One of "sans serif", "serif", or "monospace".
-# Default: "sans serif"
+# Font family for all text in the app.
 font = "sans serif"
+
+# Additional settings to improve visibility of bar charts.
+[chart]
+# Use high-contrast colors for bars.
+barColors = ["#1661C9", "#FF5733", "#28A745", "#FFC107", "#8E44AD"]
+
+# Add borders to bars if supported by the visualization tool.
+barBorderColor = "#000000"
+barBorderWidth = 1
+
